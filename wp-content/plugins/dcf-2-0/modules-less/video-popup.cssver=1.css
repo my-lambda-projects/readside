@@ -1,0 +1,179 @@
+.video-image-preview-wrap {
+  text-align: center;
+}
+.video-image-preview-wrap.et_pb_text_align_left {
+  text-align: left;
+}
+.video-image-preview {
+  padding: 0;
+  display: block;
+  position: relative;
+  text-align: center;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  width: 100%;
+  max-width: 480px;
+  margin: auto;
+  cursor: pointer;
+}
+.ie .video-image-preview img {
+  width: 100%;
+}
+.video-image-preview img {
+  padding: none;
+  display: block;
+  max-width: 480px !important;
+  margin: auto;
+  width: 100% !important;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.video-image-preview .video-overlay-indicator {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.video-image-preview .fa-stack {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  border: #fff solid 5px;
+  background: rgba(0, 0, 0, 0.8);
+  line-height: 74px;
+  font-size: 32px;
+  border-radius: 50%;
+  opacity: 1;
+  width: 80px;
+  height: 80px;
+}
+.video-image-preview .fa-play {
+  color: #fff;
+  margin-left: 3px;
+  z-index: 2;
+}
+.video-image-preview:hover {
+  opacity: 1 !important;
+}
+.video-image-preview:hover img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.video-image-preview:hover .fa-stack {
+  opacity: .75;
+}
+/*====== Zoom effect ======*/
+.mfp-zoom-in {
+  /* start state */
+
+  /* animate in */
+
+  /* animate out */
+
+}
+.mfp-zoom-in .mfp-with-anim {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.8);
+}
+.mfp-zoom-in.mfp-bg {
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.mfp-zoom-in.mfp-ready .mfp-with-anim {
+  opacity: 1;
+  transform: scale(1);
+}
+.mfp-zoom-in.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+.mfp-zoom-in.mfp-removing .mfp-with-anim {
+  transform: scale(0.8);
+  opacity: 0;
+}
+.mfp-zoom-in.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+/*
+
+====== 3d unfold ======
+
+*/
+.mfp-3d-unfold {
+  /* start state */
+
+  /* animate in */
+
+  /* animate out */
+
+}
+.mfp-3d-unfold .mfp-content {
+  perspective: 2000px;
+}
+.mfp-3d-unfold .mfp-with-anim {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  transform-style: preserve-3d;
+  transform: rotateY(-60deg);
+}
+.mfp-3d-unfold.mfp-bg {
+  opacity: 0;
+  transition: all 0.5s;
+}
+.mfp-3d-unfold.mfp-ready .mfp-with-anim {
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+.mfp-3d-unfold.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+.mfp-3d-unfold.mfp-removing .mfp-with-anim {
+  transform: rotateY(60deg);
+  opacity: 0;
+}
+.mfp-3d-unfold.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+/*
+
+====== Zoom-out effect ======
+
+*/
+.mfp-zoom-out {
+  /* start state */
+
+  /* animate in */
+
+  /* animate out */
+
+}
+.mfp-zoom-out .mfp-with-anim {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.3);
+}
+.mfp-zoom-out.mfp-bg {
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.mfp-zoom-out.mfp-ready .mfp-with-anim {
+  opacity: 1;
+  transform: scale(1);
+}
+.mfp-zoom-out.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+.mfp-zoom-out.mfp-removing .mfp-with-anim {
+  transform: scale(1.3);
+  opacity: 0;
+}
+.mfp-zoom-out.mfp-removing.mfp-bg {
+  opacity: 0;
+}

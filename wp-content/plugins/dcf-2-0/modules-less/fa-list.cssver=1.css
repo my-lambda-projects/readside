@@ -1,0 +1,71 @@
+.falist.facenter {
+  text-align: center;
+}
+.falist.faleft {
+  text-align: left;
+  margin-left: 30px;
+}
+.falist.faright {
+  text-align: right;
+}
+.falist ul {
+  padding: 0px !important;
+  list-style: none;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+}
+.falist ul li {
+  margin-bottom: 10px;
+  position: relative;
+}
+.falist ul li:nth-last-child(1) {
+  margin-bottom: 0;
+}
+.falist ul li i {
+  margin-left: 0px;
+  position: absolute;
+  font-size: 24px;
+  line-height: inherit;
+  top: 0;
+  left: 0;
+}
+.falist ul li img {
+  margin-left: 0px;
+  position: absolute;
+  max-height: 24px;
+  top: 0;
+  left: 0;
+}
+.falist ul li div.list__wrap {
+  margin-left: 5rem;
+}
+.falist ul li.color-primary p {
+  color: var(--color-primary) !important;
+}
+.falist ul li.color-secondary p {
+  color: var(--color-secondary) !important;
+}
+.falist ul li.color-tertiary p {
+  color: var(--color-tertiary) !important;
+}
+.falist ul li.color-accenta p {
+  color: var(--color-accenta) !important;
+}
+.falist ul li.color-accentb p {
+  color: var(--color-accentb) !important;
+}
+@media (max-width: 480px) {
+  .falist.facenter {
+    text-align: left;
+    margin-left: 45px;
+  }
+  .falist.faleft {
+    text-align: left;
+    margin-left: 45px;
+  }
+  .falist.faright {
+    text-align: left;
+    margin-left: 45px;
+  }
+}

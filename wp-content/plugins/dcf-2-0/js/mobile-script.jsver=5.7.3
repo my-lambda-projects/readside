@@ -1,0 +1,360 @@
+/*! jQuery Mobile v1.4.5 | Copyright 2010, 2014 jQuery Foundation, Inc. | jquery.org/license */
+(function(e, t, n) {
+    typeof define == "function" && define.amd ? define(["jquery"], function(r) {
+        return n(r, e, t), r.mobile
+    }) : n(e.jQuery, e, t)
+})(this, document, function(e, t, n, r) {
+    (function(e, t, n, r) {
+        function T(e) {
+            while (e && typeof e.originalEvent != "undefined") e = e.originalEvent;
+            return e
+        }
+
+        function N(t, n) {
+            var i = t.type,
+                s, o, a, l, c, h, p, d, v;
+            t = e.Event(t), t.type = n, s = t.originalEvent, o = e.event.props, i.search(/^(mouse|click)/) > -1 && (o = f);
+            if (s)
+                for (p = o.length, l; p;) l = o[--p], t[l] = s[l];
+            i.search(/mouse(down|up)|click/) > -1 && !t.which && (t.which = 1);
+            if (i.search(/^touch/) !== -1) {
+                a = T(s), i = a.touches, c = a.changedTouches, h = i && i.length ? i[0] : c && c.length ? c[0] : r;
+                if (h)
+                    for (d = 0, v = u.length; d < v; d++) l = u[d], t[l] = h[l]
+            }
+            return t
+        }
+
+        function C(t) {
+            var n = {},
+                r, s;
+            while (t) {
+                r = e.data(t, i);
+                for (s in r) r[s] && (n[s] = n.hasVirtualBinding = !0);
+                t = t.parentNode
+            }
+            return n
+        }
+
+        function k(t, n) {
+            var r;
+            while (t) {
+                r = e.data(t, i);
+                if (r && (!n || r[n])) return t;
+                t = t.parentNode
+            }
+            return null
+        }
+
+        function L() {
+            g = !1
+        }
+
+        function A() {
+            g = !0
+        }
+
+        function O() {
+            E = 0, v.length = 0, m = !1, A()
+        }
+
+        function M() {
+            L()
+        }
+
+        function _() {
+            D(), c = setTimeout(function() {
+                c = 0, O()
+            }, e.vmouse.resetTimerDuration)
+        }
+
+        function D() {
+            c && (clearTimeout(c), c = 0)
+        }
+
+        function P(t, n, r) {
+            var i;
+            if (r && r[t] || !r && k(n.target, t)) i = N(n, t), e(n.target).trigger(i);
+            return i
+        }
+
+        function H(t) {
+            var n = e.data(t.target, s),
+                r;
+            !m && (!E || E !== n) && (r = P("v" + t.type, t), r && (r.isDefaultPrevented() && t.preventDefault(), r.isPropagationStopped() && t.stopPropagation(), r.isImmediatePropagationStopped() && t.stopImmediatePropagation()))
+        }
+
+        function B(t) {
+            var n = T(t).touches,
+                r, i, o;
+            n && n.length === 1 && (r = t.target, i = C(r), i.hasVirtualBinding && (E = w++, e.data(r, s, E), D(), M(), d = !1, o = T(t).touches[0], h = o.pageX, p = o.pageY, P("vmouseover", t, i), P("vmousedown", t, i)))
+        }
+
+        function j(e) {
+            if (g) return;
+            d || P("vmousecancel", e, C(e.target)), d = !0, _()
+        }
+
+        function F(t) {
+            if (g) return;
+            var n = T(t).touches[0],
+                r = d,
+                i = e.vmouse.moveDistanceThreshold,
+                s = C(t.target);
+            d = d || Math.abs(n.pageX - h) > i || Math.abs(n.pageY - p) > i, d && !r && P("vmousecancel", t, s), P("vmousemove", t, s), _()
+        }
+
+        function I(e) {
+            if (g) return;
+            A();
+            var t = C(e.target),
+                n, r;
+            P("vmouseup", e, t), d || (n = P("vclick", e, t), n && n.isDefaultPrevented() && (r = T(e).changedTouches[0], v.push({
+                touchID: E,
+                x: r.clientX,
+                y: r.clientY
+            }), m = !0)), P("vmouseout", e, t), d = !1, _()
+        }
+
+        function q(t) {
+            var n = e.data(t, i),
+                r;
+            if (n)
+                for (r in n)
+                    if (n[r]) return !0;
+            return !1
+        }
+
+        function R() {}
+
+        function U(t) {
+            var n = t.substr(1);
+            return {
+                setup: function() {
+                    q(this) || e.data(this, i, {});
+                    var r = e.data(this, i);
+                    r[t] = !0, l[t] = (l[t] || 0) + 1, l[t] === 1 && b.bind(n, H), e(this).bind(n, R), y && (l.touchstart = (l.touchstart || 0) + 1, l.touchstart === 1 && b.bind("touchstart", B).bind("touchend", I).bind("touchmove", F).bind("scroll", j))
+                },
+                teardown: function() {
+                    --l[t], l[t] || b.unbind(n, H), y && (--l.touchstart, l.touchstart || b.unbind("touchstart", B).unbind("touchmove", F).unbind("touchend", I).unbind("scroll", j));
+                    var r = e(this),
+                        s = e.data(this, i);
+                    s && (s[t] = !1), r.unbind(n, R), q(this) || r.removeData(i)
+                }
+            }
+        }
+        var i = "virtualMouseBindings",
+            s = "virtualTouchID",
+            o = "vmouseover vmousedown vmousemove vmouseup vclick vmouseout vmousecancel".split(" "),
+            u = "clientX clientY pageX pageY screenX screenY".split(" "),
+            a = e.event.mouseHooks ? e.event.mouseHooks.props : [],
+            f = e.event.props.concat(a),
+            l = {},
+            c = 0,
+            h = 0,
+            p = 0,
+            d = !1,
+            v = [],
+            m = !1,
+            g = !1,
+            y = "addEventListener" in n,
+            b = e(n),
+            w = 1,
+            E = 0,
+            S, x;
+        e.vmouse = {
+            moveDistanceThreshold: 10,
+            clickDistanceThreshold: 10,
+            resetTimerDuration: 1500
+        };
+        for (x = 0; x < o.length; x++) e.event.special[o[x]] = U(o[x]);
+        y && n.addEventListener("click", function(t) {
+            var n = v.length,
+                r = t.target,
+                i, o, u, a, f, l;
+            if (n) {
+                i = t.clientX, o = t.clientY, S = e.vmouse.clickDistanceThreshold, u = r;
+                while (u) {
+                    for (a = 0; a < n; a++) {
+                        f = v[a], l = 0;
+                        if (u === r && Math.abs(f.x - i) < S && Math.abs(f.y - o) < S || e.data(u, s) === f.touchID) {
+                            t.preventDefault(), t.stopPropagation();
+                            return
+                        }
+                    }
+                    u = u.parentNode
+                }
+            }
+        }, !0)
+    })(e, t, n),
+    function(e) {
+        e.mobile = {}
+    }(e),
+    function(e, t) {
+        var r = {
+            touch: "ontouchend" in n
+        };
+        e.mobile.support = e.mobile.support || {}, e.extend(e.support, r), e.extend(e.mobile.support, r)
+    }(e),
+    function(e, t, r) {
+        function l(t, n, i, s) {
+            var o = i.type;
+            i.type = n, s ? e.event.trigger(i, r, t) : e.event.dispatch.call(t, i), i.type = o
+        }
+        var i = e(n),
+            s = e.mobile.support.touch,
+            o = "touchmove scroll",
+            u = s ? "touchstart" : "mousedown",
+            a = s ? "touchend" : "mouseup",
+            f = s ? "touchmove" : "mousemove";
+        e.each("touchstart touchmove touchend tap taphold swipe swipeleft swiperight scrollstart scrollstop".split(" "), function(t, n) {
+            e.fn[n] = function(e) {
+                return e ? this.bind(n, e) : this.trigger(n)
+            }, e.attrFn && (e.attrFn[n] = !0)
+        }), e.event.special.scrollstart = {
+            enabled: !0,
+            setup: function() {
+                function s(e, n) {
+                    r = n, l(t, r ? "scrollstart" : "scrollstop", e)
+                }
+                var t = this,
+                    n = e(t),
+                    r, i;
+                n.bind(o, function(t) {
+                    if (!e.event.special.scrollstart.enabled) return;
+                    r || s(t, !0), clearTimeout(i), i = setTimeout(function() {
+                        s(t, !1)
+                    }, 50)
+                })
+            },
+            teardown: function() {
+                e(this).unbind(o)
+            }
+        }, e.event.special.tap = {
+            tapholdThreshold: 750,
+            emitTapOnTaphold: !0,
+            setup: function() {
+                var t = this,
+                    n = e(t),
+                    r = !1;
+                n.bind("vmousedown", function(s) {
+                    function a() {
+                        clearTimeout(u)
+                    }
+
+                    function f() {
+                        a(), n.unbind("vclick", c).unbind("vmouseup", a), i.unbind("vmousecancel", f)
+                    }
+
+                    function c(e) {
+                        f(), !r && o === e.target ? l(t, "tap", e) : r && e.preventDefault()
+                    }
+                    r = !1;
+                    if (s.which && s.which !== 1) return !1;
+                    var o = s.target,
+                        u;
+                    n.bind("vmouseup", a).bind("vclick", c), i.bind("vmousecancel", f), u = setTimeout(function() {
+                        e.event.special.tap.emitTapOnTaphold || (r = !0), l(t, "taphold", e.Event("taphold", {
+                            target: o
+                        }))
+                    }, e.event.special.tap.tapholdThreshold)
+                })
+            },
+            teardown: function() {
+                e(this).unbind("vmousedown").unbind("vclick").unbind("vmouseup"), i.unbind("vmousecancel")
+            }
+        }, e.event.special.swipe = {
+            scrollSupressionThreshold: 30,
+            durationThreshold: 1e3,
+            horizontalDistanceThreshold: 30,
+            verticalDistanceThreshold: 30,
+            getLocation: function(e) {
+                var n = t.pageXOffset,
+                    r = t.pageYOffset,
+                    i = e.clientX,
+                    s = e.clientY;
+                if (e.pageY === 0 && Math.floor(s) > Math.floor(e.pageY) || e.pageX === 0 && Math.floor(i) > Math.floor(e.pageX)) i -= n, s -= r;
+                else if (s < e.pageY - r || i < e.pageX - n) i = e.pageX - n, s = e.pageY - r;
+                return {
+                    x: i,
+                    y: s
+                }
+            },
+            start: function(t) {
+                var n = t.originalEvent.touches ? t.originalEvent.touches[0] : t,
+                    r = e.event.special.swipe.getLocation(n);
+                return {
+                    time: (new Date).getTime(),
+                    coords: [r.x, r.y],
+                    origin: e(t.target)
+                }
+            },
+            stop: function(t) {
+                var n = t.originalEvent.touches ? t.originalEvent.touches[0] : t,
+                    r = e.event.special.swipe.getLocation(n);
+                return {
+                    time: (new Date).getTime(),
+                    coords: [r.x, r.y]
+                }
+            },
+            handleSwipe: function(t, n, r, i) {
+                if (n.time - t.time < e.event.special.swipe.durationThreshold && Math.abs(t.coords[0] - n.coords[0]) > e.event.special.swipe.horizontalDistanceThreshold && Math.abs(t.coords[1] - n.coords[1]) < e.event.special.swipe.verticalDistanceThreshold) {
+                    var s = t.coords[0] > n.coords[0] ? "swipeleft" : "swiperight";
+                    return l(r, "swipe", e.Event("swipe", {
+                        target: i,
+                        swipestart: t,
+                        swipestop: n
+                    }), !0), l(r, s, e.Event(s, {
+                        target: i,
+                        swipestart: t,
+                        swipestop: n
+                    }), !0), !0
+                }
+                return !1
+            },
+            eventInProgress: !1,
+            setup: function() {
+                var t, n = this,
+                    r = e(n),
+                    s = {};
+                t = e.data(this, "mobile-events"), t || (t = {
+                    length: 0
+                }, e.data(this, "mobile-events", t)), t.length++, t.swipe = s, s.start = function(t) {
+                    if (e.event.special.swipe.eventInProgress) return;
+                    e.event.special.swipe.eventInProgress = !0;
+                    var r, o = e.event.special.swipe.start(t),
+                        u = t.target,
+                        l = !1;
+                    s.move = function(t) {
+                        if (!o || t.isDefaultPrevented()) return;
+                        r = e.event.special.swipe.stop(t), l || (l = e.event.special.swipe.handleSwipe(o, r, n, u), l && (e.event.special.swipe.eventInProgress = !1)), Math.abs(o.coords[0] - r.coords[0]) > e.event.special.swipe.scrollSupressionThreshold && t.preventDefault()
+                    }, s.stop = function() {
+                        l = !0, e.event.special.swipe.eventInProgress = !1, i.off(f, s.move), s.move = null
+                    }, i.on(f, s.move).one(a, s.stop)
+                }, r.on(u, s.start)
+            },
+            teardown: function() {
+                var t, n;
+                t = e.data(this, "mobile-events"), t && (n = t.swipe, delete t.swipe, t.length--, t.length === 0 && e.removeData(this, "mobile-events")), n && (n.start && e(this).off(u, n.start), n.move && i.off(f, n.move), n.stop && i.off(a, n.stop))
+            }
+        }, e.each({
+            scrollstop: "scrollstart",
+            taphold: "tap",
+            swipeleft: "swipe.left",
+            swiperight: "swipe.right"
+        }, function(t, n) {
+            e.event.special[t] = {
+                setup: function() {
+                    e(this).bind(n, e.noop)
+                },
+                teardown: function() {
+                    e(this).unbind(n)
+                }
+            }
+        })
+    }(e, this)
+});
+/*! sidr - v2.2.1 - 2016-02-17
+ * http://www.berriart.com/sidr/
+ * Copyright (c) 2013-2016 Alberto Varela; Licensed MIT */
+!function(){"use strict";function a(a,b,c){var d=new o(b);switch(a){case"open":d.open(c);break;case"close":d.close(c);break;case"toggle":d.toggle(c);break;default:p.error("Method "+a+" does not exist on jQuery.sidr")}}function b(a){return"status"===a?h:s[a]?s[a].apply(this,Array.prototype.slice.call(arguments,1)):"function"!=typeof a&&"string"!=typeof a&&a?void q.error("Method "+a+" does not exist on jQuery.sidr"):s.toggle.apply(this,arguments)}function c(a,b){if("function"==typeof b.source){var c=b.source(name);a.html(c)}else if("string"==typeof b.source&&i.isUrl(b.source))u.get(b.source,function(b){a.html(b)});else if("string"==typeof b.source){var d="",e=b.source.split(",");if(u.each(e,function(a,b){d+='<div class="sidr-inner">'+u(b).html()+"</div>"}),b.renaming){var f=u("<div />").html(d);f.find("*").each(function(a,b){var c=u(b);i.addPrefixes(c)}),d=f.html()}a.html(d)}else null!==b.source&&u.error("Invalid Sidr Source");return a}function d(a){var d=i.transitions,e=u.extend({name:"sidr",speed:200,side:"left",source:null,renaming:!0,body:"body",displace:!0,timing:"ease",method:"toggle",bind:"touchstart click",onOpen:function(){},onClose:function(){},onOpenEnd:function(){},onCloseEnd:function(){}},a),f=e.name,g=u("#"+f);return 0===g.length&&(g=u("<div />").attr("id",f).appendTo(u("body"))),d.supported&&g.css(d.property,e.side+" "+e.speed/1e3+"s "+e.timing),g.addClass("sidr").addClass(e.side).data({speed:e.speed,side:e.side,body:e.body,displace:e.displace,timing:e.timing,method:e.method,onOpen:e.onOpen,onClose:e.onClose,onOpenEnd:e.onOpenEnd,onCloseEnd:e.onCloseEnd}),g=c(g,e),this.each(function(){var a=u(this),c=a.data("sidr"),d=!1;c||(h.moving=!1,h.opened=!1,a.data("sidr",f),a.bind(e.bind,function(a){a.preventDefault(),d||(d=!0,b(e.method,f),setTimeout(function(){d=!1},100))}))})}var e={};e.classCallCheck=function(a,b){if(!(a instanceof b))throw new TypeError("Cannot call a class as a function")},e.createClass=function(){function a(a,b){for(var c=0;c<b.length;c++){var d=b[c];d.enumerable=d.enumerable||!1,d.configurable=!0,"value"in d&&(d.writable=!0),Object.defineProperty(a,d.key,d)}}return function(b,c,d){return c&&a(b.prototype,c),d&&a(b,d),b}}();var f,g,h={moving:!1,opened:!1},i={isUrl:function(a){var b=new RegExp("^(https?:\\/\\/)?((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.?)+[a-z]{2,}|((\\d{1,3}\\.){3}\\d{1,3}))(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*(\\?[;&a-z\\d%_.~+=-]*)?(\\#[-a-z\\d_]*)?$","i");return b.test(a)?!0:!1},addPrefixes:function(a){this.addPrefix(a,"id"),this.addPrefix(a,"class"),a.removeAttr("style")},addPrefix:function(a,b){var c=a.attr(b);"string"==typeof c&&""!==c&&"sidr-inner"!==c&&a.attr(b,c.replace(/([A-Za-z0-9_.\-]+)/g,"sidr-"+b+"-$1"))},transitions:function(){var a=document.body||document.documentElement,b=a.style,c=!1,d="transition";return d in b?c=!0:!function(){var a=["moz","webkit","o","ms"],e=void 0,f=void 0;d=d.charAt(0).toUpperCase()+d.substr(1),c=function(){for(f=0;f<a.length;f++)if(e=a[f],e+d in b)return!0;return!1}(),d=c?"-"+e.toLowerCase()+"-"+d.toLowerCase():null}(),{supported:c,property:d}}()},j=jQuery,k="sidr-animating",l="open",m="close",n="webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend",o=function(){function a(b){e.classCallCheck(this,a),this.name=b,this.item=j("#"+b),this.openClass="sidr"===b?"sidr-open":"sidr-open "+b+"-open",this.menuWidth=this.item.outerWidth(!0),this.speed=this.item.data("speed"),this.side=this.item.data("side"),this.displace=this.item.data("displace"),this.timing=this.item.data("timing"),this.method=this.item.data("method"),this.onOpenCallback=this.item.data("onOpen"),this.onCloseCallback=this.item.data("onClose"),this.onOpenEndCallback=this.item.data("onOpenEnd"),this.onCloseEndCallback=this.item.data("onCloseEnd"),this.body=j(this.item.data("body"))}return e.createClass(a,[{key:"getAnimation",value:function(a,b){var c={},d=this.side;return"open"===a&&"body"===b?c[d]=this.menuWidth+"px":"close"===a&&"menu"===b?c[d]="-"+this.menuWidth+"px":c[d]=0,c}},{key:"prepareBody",value:function(a){var b="open"===a?"hidden":"";if(this.body.is("body")){var c=j("html"),d=c.scrollTop();c.css("overflow-x",b).scrollTop(d)}}},{key:"openBody",value:function(){if(this.displace){var a=i.transitions,b=this.body;if(a.supported)b.css(a.property,this.side+" "+this.speed/1e3+"s "+this.timing).css(this.side,0).css({width:b.width(),position:"absolute"}),b.css(this.side,this.menuWidth+"px");else{var c=this.getAnimation(l,"body");b.css({width:b.width(),position:"absolute"}).animate(c,{queue:!1,duration:this.speed})}}}},{key:"onCloseBody",value:function(){var a=i.transitions,b={width:"",position:"",right:"",left:""};a.supported&&(b[a.property]=""),this.body.css(b).unbind(n)}},{key:"closeBody",value:function(){var a=this;if(this.displace)if(i.transitions.supported)this.body.css(this.side,0).one(n,function(){a.onCloseBody()});else{var b=this.getAnimation(m,"body");this.body.animate(b,{queue:!1,duration:this.speed,complete:function(){a.onCloseBody()}})}}},{key:"moveBody",value:function(a){a===l?this.openBody():this.closeBody()}},{key:"onOpenMenu",value:function(a){var b=this.name;h.moving=!1,h.opened=b,this.item.unbind(n),this.body.removeClass(k).addClass(this.openClass),this.onOpenEndCallback(),"function"==typeof a&&a(b)}},{key:"openMenu",value:function(a){var b=this,c=this.item;if(i.transitions.supported)c.css(this.side,0).one(n,function(){b.onOpenMenu(a)});else{var d=this.getAnimation(l,"menu");c.css("display","block").animate(d,{queue:!1,duration:this.speed,complete:function(){b.onOpenMenu(a)}})}}},{key:"onCloseMenu",value:function(a){this.item.css({left:"",right:""}).unbind(n),j("html").css("overflow-x",""),h.moving=!1,h.opened=!1,this.body.removeClass(k).removeClass(this.openClass),this.onCloseEndCallback(),"function"==typeof a&&a(name)}},{key:"closeMenu",value:function(a){var b=this,c=this.item;if(i.transitions.supported)c.css(this.side,"").one(n,function(){b.onCloseMenu(a)});else{var d=this.getAnimation(m,"menu");c.animate(d,{queue:!1,duration:this.speed,complete:function(){b.onCloseMenu()}})}}},{key:"moveMenu",value:function(a,b){this.body.addClass(k),a===l?this.openMenu(b):this.closeMenu(b)}},{key:"move",value:function(a,b){h.moving=!0,this.prepareBody(a),this.moveBody(a),this.moveMenu(a,b)}},{key:"open",value:function(b){var c=this;if(h.opened!==this.name&&!h.moving){if(h.opened!==!1){var d=new a(h.opened);return void d.close(function(){c.open(b)})}this.move("open",b),this.onOpenCallback()}}},{key:"close",value:function(a){h.opened!==this.name||h.moving||(this.move("close",a),this.onCloseCallback())}},{key:"toggle",value:function(a){h.opened===this.name?this.close(a):this.open(a)}}]),a}(),p=jQuery,q=jQuery,r=["open","close","toggle"],s={},t=function(b){return function(c,d){"function"==typeof c?(d=c,c="sidr"):c||(c="sidr"),a(b,c,d)}};for(f=0;f<r.length;f++)g=r[f],s[g]=t(g);var u=jQuery;jQuery.sidr=b,jQuery.fn.sidr=d}();

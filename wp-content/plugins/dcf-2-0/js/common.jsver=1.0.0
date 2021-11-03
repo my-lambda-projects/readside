@@ -1,0 +1,327 @@
+jQuery(window).on('load', function() {
+  function GetURLParameter(sParam) {
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) {
+      var sParameterName = sURLVariables[i].split('=');
+      if (sParameterName[0] == sParam) {
+        return sParameterName[1];
+      }
+    }
+  }
+    
+  var scrollto = GetURLParameter('scrollto');
+  //console.log(scrollto);
+  if( scrollto !== undefined) {
+    //console.log(scrollto);
+    if ( jQuery( '#'+scrollto ).length ) {
+      var itemOffset = jQuery('#'+scrollto).offset().top;
+      var TopHeaderHeight = jQuery(".fullheader").outerHeight();
+      //console.log('Offset: '+itemOffset);
+      var scrolltodis = itemOffset - TopHeaderHeight - 0;
+    }
+  }
+  if( itemOffset > 0) {
+    //console.log("We should scroll to #band"+scrollto);
+    jQuery('html,body').animate({ scrollTop: scrolltodis }, 900,    function(){
+        jQuery("html, body").unbind("scroll mousedown DOMMouseScroll mousewheel keyup");
+      });
+  }
+});
+jQuery(".popup-videomp4").each(function() {
+  var mp4ID = jQuery(this).attr('id');
+  var mp4MOVIE = jQuery(this).attr('href');
+  jQuery(this).magnificPopup({
+    items: {
+      src: jQuery('<div class="mp4-popup-wrap"><div class="mp4-popup"><video class="popup-mpfour" controls loop><source src="'+mp4MOVIE+'" type="video/mp4">Your browser does not support HTML5 video.</video><div class="mp4_loader"></div></div></div>'),
+      type: 'inline'
+    },
+    closeMarkup: '<button title="%title%" type="button" class="mfp-close" >close</button>',
+    callbacks: {
+      open: function() {
+        console.log(this.content);
+        jQuery('.popup-mpfour')[0].currentTime = 0;
+        jQuery('.popup-mpfour')[0].play();
+      }
+    }
+  });
+});
+jQuery(window).load(function() {
+  jQuery("#goog-gt-tt .top").remove();
+});
+jQuery('.magnific-gallery').each(function() { // the containers for all your galleries
+  jQuery(this).magnificPopup({
+    delegate: 'a', // the selector for gallery item
+    type: 'image',
+    closeMarkup: '<button title="%title%" type="button" class="mfp-close" >close</button>',
+    gallery: {
+      enabled:true
+    },
+    callbacks: {
+      beforeOpen: function() {
+        // just a hack that adds mfp-anim class to markup 
+        this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure magnific-gallery');
+        this.st.mainClass = this.st.mainClass + ' magnific-gallery-wrap';
+      }
+    }
+  });
+});
+jQuery('.add-popup-inline').each(function() {
+  jQuery(this).find("a").addClass('popup-inline');
+});
+jQuery('.add-popup-video').each(function() {
+  jQuery(this).find("a").addClass('popup-video');
+});
+jQuery('.gallery-band').each(function() {
+  var popID = jQuery(this).attr('id');
+  jQuery('.gallery-band#' + popID).magnificPopup({
+    delegate: '.image-link',
+    closeMarkup: '<button title="%title%" type="button" class="mfp-close" >close</button>',
+    gallery: {
+      enabled: true
+    },
+    removalDelay: 500,
+    callbacks: {
+      beforeOpen: function() {
+        this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+        this.st.mainClass = this.st.el.attr('data-effect');
+      }
+    },
+    midClick: true
+  });
+});
+jQuery('.et_pb_slick_slider').slick({
+  slidesToScroll: 1
+});
+jQuery(".addscrollto a").each(function() {
+  var btnHREF = jQuery(this).attr("href");
+  var querytag = btnHREF.split('?')[1];
+    if(window.location.href.split('?')[0] === btnHREF.substring(0, btnHREF.indexOf("?") )) {
+     jQuery(this).attr('href', '#' + querytag.substring(9));
+     jQuery(this).addClass('scrollto');
+  } 
+});
+// Re-enable scroll link function on mobile
+jQuery(".scrollto a").each(function() {
+  var Site = window.location.href;
+  var Siten = Site.indexOf("#");
+  if(Siten >= 1) {
+    var SiteURL = Site.substring(0, Site.indexOf("#"));  
+  } else {
+    var SiteURL = window.location.href;
+  }
+  var btnHREF = jQuery(this).attr("href");
+  var checkURL = btnHREF.substring(0, btnHREF.indexOf("#"));
+  var newURL = btnHREF.substring(btnHREF.indexOf("#"));
+  if(SiteURL === checkURL) {
+    jQuery(this).attr('href',newURL); 
+  }
+});
+jQuery('.no-scroll,.popup-videomp4, .popup-hint,scrollup-inline,.video-popup, .popup-youtube,.popup-inline,.video-link,.popup-video,.popup-review-pro, .popup-reviewpro,.menu-popup,.popup-image, .image-popup-vertical-fit, .popup-fit-height,.popup-wufoo,.popup-youtube, .mfp-youtube,.popup-horizontal-fit, .popup-fit-width, .popup-full-width, .popup-testimonial').on('click', function() {
+  window.et_pb_smooth_scroll = function() {
+    return false;
+  }
+});
+// --------------------------------------------------------------------------------
+// Popup Hint for scavenger Hunt Hints
+// --------------------------------------------------------------------------------
+jQuery('.popup-hint').each(function() {
+  jQuery(this).attr("target","_blank");
+  jQuery(this).attr('href', function() {
+    return this.href + '?scavenger_hint=yes';
+  });
+});
+       
+var getUrlParameter = function getUrlParameter(sParam) {
+  var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+  sURLVariables = sPageURL.split('&'),
+  sParameterName,
+  i;
+        
+  for (i = 0; i < sURLVariables.length; i++) {
+    sParameterName = sURLVariables[i].split('=');
+    if (sParameterName[0] === sParam) {
+      return sParameterName[1] === undefined ? true : sParameterName[1];
+    }
+  }
+};
+  
+jQuery(".close-tab-btn").on("click", function() {
+  window.top.close();
+})
+// --------------------------------------------------------------------------------
+// Scroll to functionality
+// --------------------------------------------------------------------------------
+ var siteURL = window.location.protocol + "//" + window.location.host + "/";
+//if (top.location.pathname === '/'){
+//  jQuery('.scrollto a').each(function(){
+//      this.href = this.href.replace(siteURL, '');
+//  });
+//}
+
+function goToByScroll(id){
+  console.log('click in function');
+  id = id === "#" ? "#site" : id;
+  var itemOffset = jQuery(id).offset().top;
+  var TopHeaderHeightCustom = jQuery(".fullheader").outerHeight();
+  var AddToScroll = 0;
+  jQuery('.addtoscroll').each(function() {
+    AddToScroll += jQuery(this).outerHeight();
+  });
+  //console.log(TopHeaderHeightCustom);
+  var FullScroll = itemOffset-TopHeaderHeightCustom-AddToScroll;
+  jQuery("html, body").bind("scroll mousedown DOMMouseScroll mousewheel keyup", function(){
+    jQuery('html, body').stop();
+  });
+  jQuery('html,body').animate({ scrollTop: FullScroll+"px" }, 900,    function(){
+    jQuery("html, body").unbind("scroll mousedown DOMMouseScroll mousewheel keyup");
+  });
+}
+function goToByScroll65(id){
+  id = id === "#" ? "#site" : id;
+  var itemOffset = jQuery(id).offset().top;
+  //console.log(TopHeaderHeightCustom);
+  var FullScroll = itemOffset-65;
+  jQuery("html, body").bind("scroll mousedown DOMMouseScroll mousewheel keyup", function(){
+    jQuery('html, body').stop();
+  });
+  jQuery('html,body').animate({ scrollTop: FullScroll+"px" }, 900,    function(){
+    jQuery("html, body").unbind("scroll mousedown DOMMouseScroll mousewheel keyup");
+  });
+}
+jQuery(document).on('click', '.scrollto65 a, a.scrollto65', function(event) {
+  event.preventDefault();
+  goToByScroll65(jQuery(this).attr('href'));
+  return false;
+});
+jQuery(document).on('click', '.scrollto a, a.scrollto', function(event) {
+  event.preventDefault();
+  goToByScroll(jQuery(this).attr('href'));
+  return false;
+});
+jQuery( window ).load(function() {
+  jQuery('.sidr-class-popup-inline,.popup-inline,.open-popup-link').magnificPopup({
+    type: 'inline',
+    closeMarkup: '<button title="%title%" type="button" class="mfp-close" >close</button>',
+    midClick: true
+  });
+});
+jQuery('.scrollup-inline').magnificPopup({
+  type: 'inline',
+  closeMarkup: '<button title="%title%" type="button" class="mfp-close" >close</button>',
+  callbacks: {
+    beforeOpen: function() {
+      this.st.mainClass = this.st.mainClass + ' scrollup-wrap';
+      var magnificPopup = jQuery.magnificPopup.instance;
+      jQuery(magnificPopup.wrap).attr('id', 'main-content');
+    }
+  }
+});
+jQuery('.popup-video, .video-link').each(function() {
+  var jQuerythis = jQuery(this);
+  var startT = jQuerythis.data('start');
+  var showCC = jQuerythis.data('cc');
+  if('' === startT) {
+    var startT = 0;
+  }
+  if('yes' === showCC) {
+    var videoCC = 1;
+  } else {
+    var videoCC = 0;
+  }
+  jQuerythis.magnificPopup({
+    type: 'iframe',
+    midClick: true,
+    closeMarkup: '<button title="%title%" type="button" class="mfp-close" >close</button>',
+    iframe: {
+      patterns: {
+        youtube: {
+          src: '//www.youtube.com/embed/%id%?rel=0&amp;autoplay=1&amp;cc_load_policy='+videoCC+'&amp;start=' + jQuerythis.data('start')
+        },
+        vimeo: {
+          src: '//player.vimeo.com/video/%id%?autoplay=1&rel=0&#t=' + jQuerythis.data('start')
+        }
+      }
+    }
+  });
+});
+jQuery('.popup-wufoo').magnificPopup({
+  type: 'iframe',
+  closeMarkup: '<button title="%title%" type="button" class="mfp-close" >close</button>',
+  iframe: {
+    markup: '<div class="mfp-iframe-scaler wufoo-popup-content">' + '<div class="mfp-iframe-preloader"></div>' + '<div class="mfp-close"></div>' + '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' + '</div>'
+  },
+});
+// Add a class to the parent container, so we can set the width
+jQuery('.popup-wufoo').on("click", function () {
+  jQuery('.wufoo-popup-content').parent('.mfp-content').addClass('mfp-wufoo-width');
+});
+jQuery('.popup-review-pro, .popup-reviewpro').on("click", function () {
+  jQuery('.review-pro-popup-content').parent('.mfp-content').addClass('mfp-review-pro-width');
+});
+jQuery('.popup-review-pro, .popup-reviewpro').magnificPopup( {
+  type: 'iframe',
+  closeMarkup: '<button title="%title%" type="button" class="mfp-close" >close</button>',
+  iframe: {
+    markup: '<div class="mfp-iframe-scaler review-pro-popup-content">'+
+    '<div class="mfp-close"></div>'+
+    '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+    '</div>'
+  },
+});
+jQuery('.popup-image, .image-popup-vertical-fit, .popup-fit-height').magnificPopup({
+  type: 'image',
+  closeMarkup: '<button title="%title%" type="button" class="mfp-close" >close</button>',
+  closeOnContentClick: true,
+});
+jQuery('.popup-horizontal-fit, .popup-fit-width, .popup-full-width, .popup-testimonial').magnificPopup({
+  type: 'image',
+  closeMarkup: '<button title="%title%" type="button" class="mfp-close" >close</button>',
+  closeOnContentClick: true,
+  image: {
+    verticalFit: false
+  }
+});
+jQuery('.popup-youtube, .mfp-youtube').magnificPopup({
+  disableOn: 767, // go straight to video if screen is less than 767px wide
+  type: 'iframe',
+  closeMarkup: '<button title="%title%" type="button" class="mfp-close" >close</button>',
+  mainClass: 'mfp-fade',
+  removalDelay: 160,
+  preloader: false,
+  fixedContentPos: false,
+  iframe: {
+    patterns: {
+      youtube: {
+        src: '//www.youtube.com/embed/%id%?autoplay=1&rel=0'
+      }
+    }
+  }
+});
+jQuery(document).on("focus",".sgform input,.sgform textarea", function() {
+  var currentId = jQuery(this).attr('id');
+  jQuery("label[for=" + currentId + "]").addClass('focus');
+  jQuery("label[for=" + currentId + "]").show('focus');
+});
+jQuery(document).on("focusout",".sgform input,.sgform textarea", function() {
+  var currentId = jQuery(this).attr('id');
+  jQuery("label[for=" + currentId + "]").removeClass('focus');
+  if (jQuery(this).val() != '') {
+    jQuery("label[for=" + currentId + "]").addClass('hideme');
+  } else {
+    jQuery("label[for=" + currentId + "]").removeClass('hideme');
+  }
+});
+  
+jQuery('.mydivi-accordion .accordion-title').on("click", function(j) {
+  var dropDown = jQuery(this).closest('.et_pb_mydivi_accordion_item').find('.acc-content');
+  jQuery(this).closest('.mydivi-accordion').find('.acc-content').not(dropDown).slideUp();
+  if (jQuery(this).hasClass('active')) {
+    jQuery(this).removeClass('active');
+  } else {
+    jQuery(this).closest('.mydivi-accordion').find('.accordion-title.active').removeClass('active');
+    jQuery(this).addClass('active');
+  }
+  dropDown.stop(false, true).slideToggle();
+  j.preventDefault();
+});
