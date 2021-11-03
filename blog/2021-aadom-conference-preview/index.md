@@ -16,25 +16,30 @@ phone
 
 <a href="/" class="ga-logo"></a>
 
--   <a href="https://www.roadsidedentalmarketing.com/services/websites/" class="menu-image-title-after"><span class="menu-image-title">Websites</span></a>
-    -   <a href="https://www.roadsidedentalmarketing.com/services/websites/dental/" class="menu-image-title-after"></a>
+- <a href="https://www.roadsidedentalmarketing.com/services/websites/" class="menu-image-title-after"><span class="menu-image-title">Websites</span></a>
 
-        <span class="menu-image-title">Dental Websites</span>
-    -   <span id="menu-item-52489"><a href="https://www.roadsidedentalmarketing.com/services/websites/medical/" class="menu-image-title-after"></a></span>
+  - <a href="https://www.roadsidedentalmarketing.com/services/websites/dental/" class="menu-image-title-after"></a>
 
-        <span class="menu-image-title">Medical Websites</span>
-    -   <a href="https://www.roadsidedentalmarketing.com/portfolio/case-studies/" class="menu-image-title-after"></a>
+    <span class="menu-image-title">Dental Websites</span>
 
-        <span class="menu-image-title">Case Studies</span>
-    -   <a href="https://www.roadsidedentalmarketing.com/website-pricing/" class="menu-image-title-after"></a>
+  - <span id="menu-item-52489"><a href="https://www.roadsidedentalmarketing.com/services/websites/medical/" class="menu-image-title-after"></a></span>
 
-        <span class="menu-image-title">Website Pricing Options</span>
--   <a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Portfolio</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Marketing</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/services/marketing/weekly-coach/" class="menu-image-title-after"><span class="menu-image-title">Weekly Coach</span></a>
+    <span class="menu-image-title">Medical Websites</span>
+
+  - <a href="https://www.roadsidedentalmarketing.com/portfolio/case-studies/" class="menu-image-title-after"></a>
+
+    <span class="menu-image-title">Case Studies</span>
+
+  - <a href="https://www.roadsidedentalmarketing.com/website-pricing/" class="menu-image-title-after"></a>
+
+    <span class="menu-image-title">Website Pricing Options</span>
+
+- <a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Portfolio</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Marketing</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/services/marketing/weekly-coach/" class="menu-image-title-after"><span class="menu-image-title">Weekly Coach</span></a>
 
 COVID-19 Resources
 
@@ -48,15 +53,14 @@ We’ve put together tips, ideas, and resources to help your business create pos
 
 Check back regularly, as we’re updating our resources frequently.
 
--   [Roadside COVID-19 Resources](https://www.roadsidedentalmarketing.com/blog/covid-resources-for-dental/)
--   [Helping Your Dental Practice Thrive Before + After Reopening \[VIDEO\]](https://www.roadsidedentalmarketing.com/blog/thrive-after-reopening/)
--   [Adapt Your Website Content to Meet Patients’ Changing Needs](https://www.roadsidedentalmarketing.com/blog/adapt-website-content/)
--   [Teledentistry / Virtual Consultations](https://www.roadsidedentalmarketing.com/promo/teledentistry/)
+- [Roadside COVID-19 Resources](https://www.roadsidedentalmarketing.com/blog/covid-resources-for-dental/)
+- [Helping Your Dental Practice Thrive Before + After Reopening \[VIDEO\]](https://www.roadsidedentalmarketing.com/blog/thrive-after-reopening/)
+- [Adapt Your Website Content to Meet Patients’ Changing Needs](https://www.roadsidedentalmarketing.com/blog/adapt-website-content/)
+- [Teledentistry / Virtual Consultations](https://www.roadsidedentalmarketing.com/promo/teledentistry/)
 
 <a href="https://www.roadsidedentalmarketing.com/roadside-live/" class="cat-link">Roadside Live</a> <span class="cat-time-divider">|</span>16 min read
 
-Roadside Live: 2021 AADOM Conference Preview
-============================================
+# Roadside Live: 2021 AADOM Conference Preview
 
 [<img src="https://secure.gravatar.com/avatar/773b224517b4f9de12de8ec09e91a615?s=96&amp;d=mm&amp;r=g" title="Gravatar for Whitney Speir" alt="Avatar for Whitney Speir" class="avatar avatar-96 photo" srcset="https://secure.gravatar.com/avatar/773b224517b4f9de12de8ec09e91a615?s=192&amp;d=mm&amp;r=g 2x" width="96" height="96" />](https://www.roadsidedentalmarketing.com/blog/author/whitneyspeir/) by [Whitney Speir](https://www.roadsidedentalmarketing.com/blog/author/whitneyspeir/)
 
@@ -68,7 +72,7 @@ In this Roadside Live video, Kim McQueen, [<span class="sr-only">… This text o
 
 This year’s conference will be held in Orlando, Florida, September 9-11, 2021. As of the date of the publishing of this blog, there are less than 50 registration spots left, so definitely hurry to register at [<span class="sr-only">… This text opens a new tab …</span>aadomconference.com](https://www.aadomconference.com).
 
-------------------------------------------------------------------------
+---
 
 **Whitney:** Hey, everyone. Thanks so much for joining us today for Roadside Live. I am so excited to be joined today by Kim McQueen, AADOM’s Executive Director. Welcome, Kim!
 
@@ -194,9 +198,9 @@ Again, for anyone who hasn’t registered yet, hurry up because those registrati
 
 Related Posts:
 
--   <a href="https://www.roadsidedentalmarketing.com/blog/bridging-the-gap-between-online-and-internal-marketing/" class="linkpost" title="Roadside Live: Bridging the Gap Between Online and Internal Marketing"><img src="https://www.roadsidedentalmarketing.com/wp-content/uploads/RS-Live-Sarah-Sherry-Reverse-Marketing-300x158.png" alt="Roadside Live!Bite-Sized Marketing Morsels Featuring Sarah Sherry BEST Practices DDS" class="attachment-medium size-medium wp-post-image" width="300" height="158" /> <span>Roadside Live: Bridging the Gap Between Online and Internal Marketing</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/blog/increasing-efficiency-and-performance/" class="linkpost" title="Roadside Live: Increasing Efficiency and Performance by Systematizing Your Practice [VIDEO]"><img src="https://www.roadsidedentalmarketing.com/wp-content/uploads/21.07-RSLive-Adi-FB-Blog-300x158.png" alt="Roadside Live featuring Adi Klevit" class="attachment-medium size-medium wp-post-image" width="300" height="158" /> <span>Roadside Live: Increasing Efficiency and Performance by Systematizing Your Practice [VIDEO]</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/blog/nexhealth-changing-dental-industry/" class="linkpost" title="Roadside Live: How NexHealth Is Changing the Dental Industry"><img src="https://www.roadsidedentalmarketing.com/wp-content/uploads/nexhealth-roadside-live-300x158.png" alt="Roadside Live with Alamin Uddin, NexHealth’s CEO" class="attachment-medium size-medium wp-post-image" width="300" height="158" /> <span>Roadside Live: How NexHealth Is Changing the Dental Industry</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/blog/bridging-the-gap-between-online-and-internal-marketing/" class="linkpost" title="Roadside Live: Bridging the Gap Between Online and Internal Marketing"><img src="https://www.roadsidedentalmarketing.com/wp-content/uploads/RS-Live-Sarah-Sherry-Reverse-Marketing-300x158.png" alt="Roadside Live!Bite-Sized Marketing Morsels Featuring Sarah Sherry BEST Practices DDS" class="attachment-medium size-medium wp-post-image" width="300" height="158" /> <span>Roadside Live: Bridging the Gap Between Online and Internal Marketing</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/blog/increasing-efficiency-and-performance/" class="linkpost" title="Roadside Live: Increasing Efficiency and Performance by Systematizing Your Practice [VIDEO]"><img src="https://www.roadsidedentalmarketing.com/wp-content/uploads/21.07-RSLive-Adi-FB-Blog-300x158.png" alt="Roadside Live featuring Adi Klevit" class="attachment-medium size-medium wp-post-image" width="300" height="158" /> <span>Roadside Live: Increasing Efficiency and Performance by Systematizing Your Practice [VIDEO]</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/blog/nexhealth-changing-dental-industry/" class="linkpost" title="Roadside Live: How NexHealth Is Changing the Dental Industry"><img src="https://www.roadsidedentalmarketing.com/wp-content/uploads/nexhealth-roadside-live-300x158.png" alt="Roadside Live with Alamin Uddin, NexHealth’s CEO" class="attachment-medium size-medium wp-post-image" width="300" height="158" /> <span>Roadside Live: How NexHealth Is Changing the Dental Industry</span></a>
 
 <span id="reply-title" class="comment-reply-title">Leave a comment: <span class="small"><a href="/blog/2021-aadom-conference-preview/#respond" id="cancel-comment-reply-link">Cancel reply</a></span></span>
 
@@ -230,29 +234,29 @@ Friday: 9:00am - 5:00pm
 
 Links
 
--   <span id="menu-item-43387"><a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Website Design Portfolio</span></a></span>
--   <span id="menu-item-43386"><a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Services</span></a></span>
--   <span id="menu-item-43383"><a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a></span>
--   <span id="menu-item-17735"><a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a></span>
--   <span id="menu-item-17731"><a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a></span>
+- <span id="menu-item-43387"><a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Website Design Portfolio</span></a></span>
+- <span id="menu-item-43386"><a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Services</span></a></span>
+- <span id="menu-item-43383"><a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a></span>
+- <span id="menu-item-17735"><a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a></span>
+- <span id="menu-item-17731"><a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a></span>
 
 ### REQUEST A WEBSITE QUOTE
 
 <span class="gform_description"></span>
 
--   <span id="field_18_1">Name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
+- <span id="field_18_1">Name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
 
--   <span id="field_18_10">Phone</span>
+- <span id="field_18_10">Phone</span>
 
--   <span id="field_18_2">Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
+- <span id="field_18_2">Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
 
--   <span id="field_18_8">Website</span>
+- <span id="field_18_8">Website</span>
 
--   <span id="field_18_6">Tell us your website goals:</span>
+- <span id="field_18_6">Tell us your website goals:</span>
 
--   <span id="field_18_11">Email</span>
+- <span id="field_18_11">Email</span>
 
-    This field is for validation purposes and should be left unchanged.
+  This field is for validation purposes and should be left unchanged.
 
 Request a Free Quote
 

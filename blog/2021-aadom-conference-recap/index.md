@@ -16,25 +16,30 @@ phone
 
 <a href="/" class="ga-logo"></a>
 
--   <a href="https://www.roadsidedentalmarketing.com/services/websites/" class="menu-image-title-after"><span class="menu-image-title">Websites</span></a>
-    -   <a href="https://www.roadsidedentalmarketing.com/services/websites/dental/" class="menu-image-title-after"></a>
+- <a href="https://www.roadsidedentalmarketing.com/services/websites/" class="menu-image-title-after"><span class="menu-image-title">Websites</span></a>
 
-        <span class="menu-image-title">Dental Websites</span>
-    -   <span id="menu-item-52489"><a href="https://www.roadsidedentalmarketing.com/services/websites/medical/" class="menu-image-title-after"></a></span>
+  - <a href="https://www.roadsidedentalmarketing.com/services/websites/dental/" class="menu-image-title-after"></a>
 
-        <span class="menu-image-title">Medical Websites</span>
-    -   <a href="https://www.roadsidedentalmarketing.com/portfolio/case-studies/" class="menu-image-title-after"></a>
+    <span class="menu-image-title">Dental Websites</span>
 
-        <span class="menu-image-title">Case Studies</span>
-    -   <a href="https://www.roadsidedentalmarketing.com/website-pricing/" class="menu-image-title-after"></a>
+  - <span id="menu-item-52489"><a href="https://www.roadsidedentalmarketing.com/services/websites/medical/" class="menu-image-title-after"></a></span>
 
-        <span class="menu-image-title">Website Pricing Options</span>
--   <a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Portfolio</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Marketing</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/services/marketing/weekly-coach/" class="menu-image-title-after"><span class="menu-image-title">Weekly Coach</span></a>
+    <span class="menu-image-title">Medical Websites</span>
+
+  - <a href="https://www.roadsidedentalmarketing.com/portfolio/case-studies/" class="menu-image-title-after"></a>
+
+    <span class="menu-image-title">Case Studies</span>
+
+  - <a href="https://www.roadsidedentalmarketing.com/website-pricing/" class="menu-image-title-after"></a>
+
+    <span class="menu-image-title">Website Pricing Options</span>
+
+- <a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Portfolio</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Marketing</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/services/marketing/weekly-coach/" class="menu-image-title-after"><span class="menu-image-title">Weekly Coach</span></a>
 
 COVID-19 Resources
 
@@ -48,15 +53,14 @@ We’ve put together tips, ideas, and resources to help your business create pos
 
 Check back regularly, as we’re updating our resources frequently.
 
--   [Roadside COVID-19 Resources](https://www.roadsidedentalmarketing.com/blog/covid-resources-for-dental/)
--   [Helping Your Dental Practice Thrive Before + After Reopening \[VIDEO\]](https://www.roadsidedentalmarketing.com/blog/thrive-after-reopening/)
--   [Adapt Your Website Content to Meet Patients’ Changing Needs](https://www.roadsidedentalmarketing.com/blog/adapt-website-content/)
--   [Teledentistry / Virtual Consultations](https://www.roadsidedentalmarketing.com/promo/teledentistry/)
+- [Roadside COVID-19 Resources](https://www.roadsidedentalmarketing.com/blog/covid-resources-for-dental/)
+- [Helping Your Dental Practice Thrive Before + After Reopening \[VIDEO\]](https://www.roadsidedentalmarketing.com/blog/thrive-after-reopening/)
+- [Adapt Your Website Content to Meet Patients’ Changing Needs](https://www.roadsidedentalmarketing.com/blog/adapt-website-content/)
+- [Teledentistry / Virtual Consultations](https://www.roadsidedentalmarketing.com/promo/teledentistry/)
 
 <a href="https://www.roadsidedentalmarketing.com/latest-news/" class="cat-link">Latest News</a> <span class="cat-time-divider">|</span>5 min read
 
-2021 AADOM Conference Recap
-===========================
+# 2021 AADOM Conference Recap
 
 [<img src="data:image/svg+xml;nitro-empty-id=NDIzOjQ0OA==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgOTYgOTYiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48L3N2Zz4=" title="Gravatar for Whitney Speir" alt="Avatar for Whitney Speir" id="NDIzOjQ0OA==-1" class="avatar avatar-96 photo nitro-lazy" width="96" height="96" />](https://www.roadsidedentalmarketing.com/blog/author/whitneyspeir/) by [Whitney Speir](https://www.roadsidedentalmarketing.com/blog/author/whitneyspeir/)
 
@@ -68,15 +72,13 @@ The AADOM Conference is a highlight of our year for many reasons, but this year 
 
 <img src="data:image/svg+xml;nitro-empty-id=NDI4OjU2NA==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNzYwIDQwMCIgd2lkdGg9Ijc2MCIgaGVpZ2h0PSI0MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" title="Discover the highlights of attending the 2021 AADOM Conference! " id="NDI4OjU2NA==-1" class="alignnone wp-image-53131 size-full nitro-lazy" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 760px, 100vw" width="760" height="400" />
 
-Sharing the love with first-time attendees
-------------------------------------------
+## Sharing the love with first-time attendees
 
 Roadside was privileged to be AADOM’s first-time attendee hospitality sponsor, which is a fancy way of saying we brought fun gifts and goodies for all the newbies. Angela and I joined the first-time attendee meeting bright and early at 7:00AM on day one, where Kim and Heather welcomed first-timers and gave them a TON of valuable information to help each and every one of them make a success of their first conference.
 
 We hopped up on stage briefly to remind them all to pop by our booth for their gift and let them know where to find us. Angela also gave a plug for our famous Seattle Chocolates and told the entire group about my weight-lifting skills loading 35 pounds of chocolate into the overhead bin on the airplane (there was no way we were going to check those precious chocolates – carry-on only!)
 
-“You’re like the Chik-fil-A of vendors!”
-----------------------------------------
+## “You’re like the Chik-fil-A of vendors!”
 
 👆 This.
 
@@ -88,8 +90,7 @@ In all seriousness, we loved every second of it.
 
 **Interacting with dental office office managers from across the country and hearing first-hand their challenges, goals, accomplishments, and successes is one of our favorite aspects of the AADOM Conference. **
 
-Marketing Masterclass
----------------------
+## Marketing Masterclass
 
 On Friday morning, Angela and I taught our Marketing Masterclass workshop, where attendees were guided on setting up a 12-month marketing action plan for their practices. They all walked away with a 40+ page workbook and ideas to implement right away, as well as homework to help them through the next year of marketing efforts.
 
@@ -107,8 +108,7 @@ Afterward, Angela and I answered some of the questions, but time prevented us fr
 
 Brie Clark, Practice Manager at Frederick Dental Group in Frederick, Maryland, has been attending our virtual and in-person workshops for years. In this video, she shares some of her favorite takeaways from the course and some of her plans for implementing what she learned.
 
-“I’m just here for the chocolate” (and buttons)
------------------------------------------------
+## “I’m just here for the chocolate” (and buttons)
 
 Every year, we bring along 35+ pounds of [<span class="sr-only">… This text opens a new tab …</span>Seattle Chocolates](https://www.seattlechocolate.com), and every year, we realize we probably should have brought 45 pounds.
 
@@ -116,8 +116,7 @@ Seattle Chocolates are literally the BEST chocolates we’ve ever tasted, and AA
 
 Additionally, every year we bring along thousands of buttons with funny and sarcastic sayings. I LOVE when I see an AADOM member come to the booth with a “vintage” button from a past conference! This year’s buttons were a hit and included sayings like “Silently judging your teeth” (sad but true!), “Nothing ruins a Friday like realizing it’s Thursday,” and “If my mouth doesn’t say it, my face definitely will.”
 
-AADOM loves its sponsors and vendors
-------------------------------------
+## AADOM loves its sponsors and vendors
 
 One of the things we love about attending the AADOM Conference are the many valuable resources AADOM puts together for its sponsors and vendors.
 
@@ -127,16 +126,15 @@ Divina and Lyss, two of our Marketing Account Managers, also attended the Key Op
 
 Those are just two examples of how the AADOM team goes above and beyond to make the conference an enriching experience, not just for attendees, but for sponsors and vendors as well.
 
-See y’all in Scottsdale!
-------------------------
+## See y’all in Scottsdale!
 
 We can’t wait for \#AADOM22 next September. See you in Scottsdale!
 
 Related Posts:
 
--   <a href="https://www.roadsidedentalmarketing.com/blog/core-web-vitals/" class="linkpost" title="How Will Google&#39;s Core Web Vitals Affect Your Dental Website?"><img src="data:image/svg+xml;nitro-empty-id=NDcyOjQzMQ==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzAwIDE1OCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIxNTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" alt="Important: Prepare now for upcoming Google algorithm update" id="NDcyOjQzMQ==-1" class="attachment-medium size-medium wp-post-image nitro-lazy" width="300" height="158" /> <span>How Will Google's Core Web Vitals Affect Your Dental Website?</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/blog/help-your-business-thrive/" class="linkpost" title="How To Help Your Practice Thrive During Uncertainty"><img src="data:image/svg+xml;nitro-empty-id=NDc0OjQzMA==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzAwIDE1OCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIxNTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" alt="We&#39;re all in this together. Love, Roadside" id="NDc0OjQzMA==-1" class="attachment-medium size-medium wp-post-image nitro-lazy" width="300" height="158" /> <span>How To Help Your Practice Thrive During Uncertainty</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/blog/core-values-and-mission-statement/" class="linkpost" title="Roadside&#39;s Core Values and Mission Statement [Free Downloads!]"><img src="data:image/svg+xml;nitro-empty-id=NDc2OjQ1Ng==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzAwIDE1OCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIxNTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" alt="Roadside&#39;s mission and core values" id="NDc2OjQ1Ng==-1" class="attachment-medium size-medium wp-post-image nitro-lazy" width="300" height="158" /> <span>Roadside's Core Values and Mission Statement [Free Downloads!]</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/blog/core-web-vitals/" class="linkpost" title="How Will Google&#39;s Core Web Vitals Affect Your Dental Website?"><img src="data:image/svg+xml;nitro-empty-id=NDcyOjQzMQ==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzAwIDE1OCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIxNTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" alt="Important: Prepare now for upcoming Google algorithm update" id="NDcyOjQzMQ==-1" class="attachment-medium size-medium wp-post-image nitro-lazy" width="300" height="158" /> <span>How Will Google's Core Web Vitals Affect Your Dental Website?</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/blog/help-your-business-thrive/" class="linkpost" title="How To Help Your Practice Thrive During Uncertainty"><img src="data:image/svg+xml;nitro-empty-id=NDc0OjQzMA==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzAwIDE1OCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIxNTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" alt="We&#39;re all in this together. Love, Roadside" id="NDc0OjQzMA==-1" class="attachment-medium size-medium wp-post-image nitro-lazy" width="300" height="158" /> <span>How To Help Your Practice Thrive During Uncertainty</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/blog/core-values-and-mission-statement/" class="linkpost" title="Roadside&#39;s Core Values and Mission Statement [Free Downloads!]"><img src="data:image/svg+xml;nitro-empty-id=NDc2OjQ1Ng==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzAwIDE1OCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIxNTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" alt="Roadside&#39;s mission and core values" id="NDc2OjQ1Ng==-1" class="attachment-medium size-medium wp-post-image nitro-lazy" width="300" height="158" /> <span>Roadside's Core Values and Mission Statement [Free Downloads!]</span></a>
 
 <span id="reply-title" class="comment-reply-title">Leave a comment: <span class="small"><a href="/blog/2021-aadom-conference-recap/#respond" id="cancel-comment-reply-link">Cancel reply</a></span></span>
 
@@ -170,29 +168,29 @@ Friday: 9:00am - 5:00pm
 
 Links
 
--   <span id="menu-item-43387"><a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Website Design Portfolio</span></a></span>
--   <span id="menu-item-43386"><a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Services</span></a></span>
--   <span id="menu-item-43383"><a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a></span>
--   <span id="menu-item-17735"><a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a></span>
--   <span id="menu-item-17731"><a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a></span>
+- <span id="menu-item-43387"><a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Website Design Portfolio</span></a></span>
+- <span id="menu-item-43386"><a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Services</span></a></span>
+- <span id="menu-item-43383"><a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a></span>
+- <span id="menu-item-17735"><a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a></span>
+- <span id="menu-item-17731"><a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a></span>
 
 ### REQUEST A WEBSITE QUOTE
 
 <span class="gform_description"></span>
 
--   <span id="field_18_1">Name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
+- <span id="field_18_1">Name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
 
--   <span id="field_18_10">Phone</span>
+- <span id="field_18_10">Phone</span>
 
--   <span id="field_18_2">Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
+- <span id="field_18_2">Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
 
--   <span id="field_18_8">Website</span>
+- <span id="field_18_8">Website</span>
 
--   <span id="field_18_6">Tell us your website goals:</span>
+- <span id="field_18_6">Tell us your website goals:</span>
 
--   <span id="field_18_11">Email</span>
+- <span id="field_18_11">Email</span>
 
-    This field is for validation purposes and should be left unchanged.
+  This field is for validation purposes and should be left unchanged.
 
 Request a Free Quote
 

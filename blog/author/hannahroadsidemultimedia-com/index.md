@@ -16,25 +16,30 @@ phone
 
 <a href="/" class="ga-logo"></a>
 
--   <a href="https://www.roadsidedentalmarketing.com/services/websites/" class="menu-image-title-after"><span class="menu-image-title">Websites</span></a>
-    -   <a href="https://www.roadsidedentalmarketing.com/services/websites/dental/" class="menu-image-title-after"></a>
+- <a href="https://www.roadsidedentalmarketing.com/services/websites/" class="menu-image-title-after"><span class="menu-image-title">Websites</span></a>
 
-        <span class="menu-image-title">Dental Websites</span>
-    -   <span id="menu-item-52489"><a href="https://www.roadsidedentalmarketing.com/services/websites/medical/" class="menu-image-title-after"></a></span>
+  - <a href="https://www.roadsidedentalmarketing.com/services/websites/dental/" class="menu-image-title-after"></a>
 
-        <span class="menu-image-title">Medical Websites</span>
-    -   <a href="https://www.roadsidedentalmarketing.com/portfolio/case-studies/" class="menu-image-title-after"></a>
+    <span class="menu-image-title">Dental Websites</span>
 
-        <span class="menu-image-title">Case Studies</span>
-    -   <a href="https://www.roadsidedentalmarketing.com/website-pricing/" class="menu-image-title-after"></a>
+  - <span id="menu-item-52489"><a href="https://www.roadsidedentalmarketing.com/services/websites/medical/" class="menu-image-title-after"></a></span>
 
-        <span class="menu-image-title">Website Pricing Options</span>
--   <a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Portfolio</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Marketing</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/services/marketing/weekly-coach/" class="menu-image-title-after"><span class="menu-image-title">Weekly Coach</span></a>
+    <span class="menu-image-title">Medical Websites</span>
+
+  - <a href="https://www.roadsidedentalmarketing.com/portfolio/case-studies/" class="menu-image-title-after"></a>
+
+    <span class="menu-image-title">Case Studies</span>
+
+  - <a href="https://www.roadsidedentalmarketing.com/website-pricing/" class="menu-image-title-after"></a>
+
+    <span class="menu-image-title">Website Pricing Options</span>
+
+- <a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Portfolio</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Marketing</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/services/marketing/weekly-coach/" class="menu-image-title-after"><span class="menu-image-title">Weekly Coach</span></a>
 
 COVID-19 Resources
 
@@ -48,13 +53,12 @@ We’ve put together tips, ideas, and resources to help your business create pos
 
 Check back regularly, as we’re updating our resources frequently.
 
--   [Roadside COVID-19 Resources](https://www.roadsidedentalmarketing.com/blog/covid-resources-for-dental/)
--   [Helping Your Dental Practice Thrive Before + After Reopening \[VIDEO\]](https://www.roadsidedentalmarketing.com/blog/thrive-after-reopening/)
--   [Adapt Your Website Content to Meet Patients’ Changing Needs](https://www.roadsidedentalmarketing.com/blog/adapt-website-content/)
--   [Teledentistry / Virtual Consultations](https://www.roadsidedentalmarketing.com/promo/teledentistry/)
+- [Roadside COVID-19 Resources](https://www.roadsidedentalmarketing.com/blog/covid-resources-for-dental/)
+- [Helping Your Dental Practice Thrive Before + After Reopening \[VIDEO\]](https://www.roadsidedentalmarketing.com/blog/thrive-after-reopening/)
+- [Adapt Your Website Content to Meet Patients’ Changing Needs](https://www.roadsidedentalmarketing.com/blog/adapt-website-content/)
+- [Teledentistry / Virtual Consultations](https://www.roadsidedentalmarketing.com/promo/teledentistry/)
 
-<span class="vcard">Hannah Baird</span>
-=======================================
+# <span class="vcard">Hannah Baird</span>
 
 About The Author
 
@@ -64,8 +68,7 @@ A four-time dental implant champion and three-time braceface survivor, Hannah Ba
 
 <a href="https://www.roadsidedentalmarketing.com/roadside-live/" class="cat-link">Roadside Live</a> <span class="cat-time-divider">|</span>19 min read
 
-[Roadside Live: How NexHealth Is Changing the Dental Industry](https://www.roadsidedentalmarketing.com/blog/nexhealth-changing-dental-industry/)
-------------------------------------------------------------------------------------------------------------------------------------------------
+## [Roadside Live: How NexHealth Is Changing the Dental Industry](https://www.roadsidedentalmarketing.com/blog/nexhealth-changing-dental-industry/)
 
 by <span class="author vcard">[Hannah Baird](https://www.roadsidedentalmarketing.com/blog/author/hannahroadsidemultimedia-com/ "Posts by Hannah Baird")</span> | <span class="published">Aug 10, 2021</span>
 
@@ -75,8 +78,7 @@ How did NexHealth… This text opens a new tab to the NexHealth website… grow 
 
 <a href="https://www.roadsidedentalmarketing.com/roadside-live/" class="cat-link">Roadside Live</a> <span class="cat-time-divider">|</span>17 min read
 
-[Roadside Live: Benefits of Being a Member of a Dental Advocacy Group \[VIDEO\]](https://www.roadsidedentalmarketing.com/blog/dental-advocacy-group/)
------------------------------------------------------------------------------------------------------------------------------------------------------
+## [Roadside Live: Benefits of Being a Member of a Dental Advocacy Group \[VIDEO\]](https://www.roadsidedentalmarketing.com/blog/dental-advocacy-group/)
 
 by <span class="author vcard">[Hannah Baird](https://www.roadsidedentalmarketing.com/blog/author/hannahroadsidemultimedia-com/ "Posts by Hannah Baird")</span> | <span class="published">May 14, 2021</span>
 
@@ -86,30 +88,27 @@ We’re always on the lookout for organizations and partners who can support our
 
 <a href="https://www.roadsidedentalmarketing.com/roadside-live/" class="cat-link">Roadside Live</a> <span class="cat-time-divider">|</span>19 min read
 
-[Tips for Hiring & Onboarding in Dentistry \[VIDEO\]](https://www.roadsidedentalmarketing.com/blog/hiring-onboarding-dentistry-tips/)
--------------------------------------------------------------------------------------------------------------------------------------
+## [Tips for Hiring & Onboarding in Dentistry \[VIDEO\]](https://www.roadsidedentalmarketing.com/blog/hiring-onboarding-dentistry-tips/)
 
 by <span class="author vcard">[Hannah Baird](https://www.roadsidedentalmarketing.com/blog/author/hannahroadsidemultimedia-com/ "Posts by Hannah Baird")</span> | <span class="published">Mar 15, 2021</span>
 
-  3 weeks? 3 months? However long, you know how relieving it is to \*finally\* hire that new team member you’ve been searching for. But what now?! Where do you even begin training and onboarding them?! There’s SO MUCH to learn and not enough time! 🤯 In...
+3 weeks? 3 months? However long, you know how relieving it is to \*finally\* hire that new team member you’ve been searching for. But what now?! Where do you even begin training and onboarding them?! There’s SO MUCH to learn and not enough time! 🤯 In...
 
 <a href="https://www.roadsidedentalmarketing.com/blog/how-to-buy-dental-practice/" class="entry-featured-image-url"><img src="https://www.roadsidedentalmarketing.com/wp-content/uploads/Roadside-Live-Michael-Dinsio.png" alt="How to Buy a Practice the Right Way [VIDEO]" width="1080" height="675" /></a>
 
 <a href="https://www.roadsidedentalmarketing.com/roadside-live/" class="cat-link">Roadside Live</a> <span class="cat-time-divider">|</span>23 min read
 
-[How to Buy a Practice the Right Way \[VIDEO\]](https://www.roadsidedentalmarketing.com/blog/how-to-buy-dental-practice/)
--------------------------------------------------------------------------------------------------------------------------
+## [How to Buy a Practice the Right Way \[VIDEO\]](https://www.roadsidedentalmarketing.com/blog/how-to-buy-dental-practice/)
 
 by <span class="author vcard">[Hannah Baird](https://www.roadsidedentalmarketing.com/blog/author/hannahroadsidemultimedia-com/ "Posts by Hannah Baird")</span> | <span class="published">Feb 2, 2021</span>
 
-  Contrary to what you might assume: COVID-19 hasn’t put a halt to the buying and selling of dental practices. If anything: It’s increased significantly, making the market more competitive than ever. So, if you’re considering buying a dental...
+Contrary to what you might assume: COVID-19 hasn’t put a halt to the buying and selling of dental practices. If anything: It’s increased significantly, making the market more competitive than ever. So, if you’re considering buying a dental...
 
 <a href="https://www.roadsidedentalmarketing.com/blog/marketing-ideas/" class="entry-featured-image-url"><img src="https://www.roadsidedentalmarketing.com/wp-content/uploads/dental-marketing-ideas.png" alt="Need Marketing Ideas? Grow Your Practice with Weekly Coach" width="1080" height="675" /></a>
 
 <a href="https://www.roadsidedentalmarketing.com/dental-marketing/" class="cat-link">Dental Marketing Tips &amp; Ideas</a> <span class="cat-time-divider">|</span>7 min read
 
-[Need Marketing Ideas? Grow Your Practice with Weekly Coach](https://www.roadsidedentalmarketing.com/blog/marketing-ideas/)
----------------------------------------------------------------------------------------------------------------------------
+## [Need Marketing Ideas? Grow Your Practice with Weekly Coach](https://www.roadsidedentalmarketing.com/blog/marketing-ideas/)
 
 by <span class="author vcard">[Hannah Baird](https://www.roadsidedentalmarketing.com/blog/author/hannahroadsidemultimedia-com/ "Posts by Hannah Baird")</span> | <span class="published">Jan 6, 2021</span>
 
@@ -119,8 +118,7 @@ Do you ever wonder, “Does a dentist really need social media?” The answer is
 
 <a href="https://www.roadsidedentalmarketing.com/our-culture/" class="cat-link">Our Culture</a> <span class="cat-time-divider">|</span>7 min read
 
-[The Best Work from Home Tips (a Must-Read During COVID-19!)](https://www.roadsidedentalmarketing.com/blog/work-from-home-tips/)
---------------------------------------------------------------------------------------------------------------------------------
+## [The Best Work from Home Tips (a Must-Read During COVID-19!)](https://www.roadsidedentalmarketing.com/blog/work-from-home-tips/)
 
 by <span class="author vcard">[Hannah Baird](https://www.roadsidedentalmarketing.com/blog/author/hannahroadsidemultimedia-com/ "Posts by Hannah Baird")</span> | <span class="published">Aug 5, 2020</span>
 
@@ -130,8 +128,7 @@ Once upon a time, all of our employees worked out of an office in Marysville, WA
 
 <a href="https://www.roadsidedentalmarketing.com/dental-marketing/" class="cat-link">Dental Marketing Tips &amp; Ideas</a> <span class="cat-time-divider">|</span>8 min read
 
-[12 Common Social Media Mistakes (& the Ultimate Guide to Avoid Them)](https://www.roadsidedentalmarketing.com/blog/social-media-mistakes/)
--------------------------------------------------------------------------------------------------------------------------------------------
+## [12 Common Social Media Mistakes (& the Ultimate Guide to Avoid Them)](https://www.roadsidedentalmarketing.com/blog/social-media-mistakes/)
 
 by <span class="author vcard">[Hannah Baird](https://www.roadsidedentalmarketing.com/blog/author/hannahroadsidemultimedia-com/ "Posts by Hannah Baird")</span> | <span class="published">Dec 2, 2019</span>
 
@@ -141,8 +138,7 @@ Are you damaging your business by making social media mistakes? Let’s explore 
 
 <a href="https://www.roadsidedentalmarketing.com/dental-marketing/" class="cat-link">Dental Marketing Tips &amp; Ideas</a> <span class="cat-time-divider">|</span>7 min read
 
-[5 Ways to Build Your Brand This Summer](https://www.roadsidedentalmarketing.com/blog/build-brand-summer-2019/)
----------------------------------------------------------------------------------------------------------------
+## [5 Ways to Build Your Brand This Summer](https://www.roadsidedentalmarketing.com/blog/build-brand-summer-2019/)
 
 by <span class="author vcard">[Hannah Baird](https://www.roadsidedentalmarketing.com/blog/author/hannahroadsidemultimedia-com/ "Posts by Hannah Baird")</span> | <span class="published">May 21, 2019</span>
 
@@ -170,29 +166,29 @@ Friday: 9:00am - 5:00pm
 
 Links
 
--   <span id="menu-item-43387"><a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Website Design Portfolio</span></a></span>
--   <span id="menu-item-43386"><a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Services</span></a></span>
--   <span id="menu-item-43383"><a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a></span>
--   <span id="menu-item-17735"><a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a></span>
--   <span id="menu-item-17731"><a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a></span>
+- <span id="menu-item-43387"><a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Website Design Portfolio</span></a></span>
+- <span id="menu-item-43386"><a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Services</span></a></span>
+- <span id="menu-item-43383"><a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a></span>
+- <span id="menu-item-17735"><a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a></span>
+- <span id="menu-item-17731"><a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a></span>
 
 ### REQUEST A WEBSITE QUOTE
 
 <span class="gform_description"></span>
 
--   <span id="field_18_1">Name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
+- <span id="field_18_1">Name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
 
--   <span id="field_18_10">Phone</span>
+- <span id="field_18_10">Phone</span>
 
--   <span id="field_18_2">Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
+- <span id="field_18_2">Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
 
--   <span id="field_18_8">Website</span>
+- <span id="field_18_8">Website</span>
 
--   <span id="field_18_6">Tell us your website goals:</span>
+- <span id="field_18_6">Tell us your website goals:</span>
 
--   <span id="field_18_11">Phone</span>
+- <span id="field_18_11">Phone</span>
 
-    This field is for validation purposes and should be left unchanged.
+  This field is for validation purposes and should be left unchanged.
 
 Request a Free Quote
 

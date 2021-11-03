@@ -16,25 +16,30 @@ phone
 
 <a href="/" class="ga-logo"></a>
 
--   <a href="https://www.roadsidedentalmarketing.com/services/websites/" class="menu-image-title-after"><span class="menu-image-title">Websites</span></a>
-    -   <a href="https://www.roadsidedentalmarketing.com/services/websites/dental/" class="menu-image-title-after"></a>
+- <a href="https://www.roadsidedentalmarketing.com/services/websites/" class="menu-image-title-after"><span class="menu-image-title">Websites</span></a>
 
-        <span class="menu-image-title">Dental Websites</span>
-    -   <span id="menu-item-52489"><a href="https://www.roadsidedentalmarketing.com/services/websites/medical/" class="menu-image-title-after"></a></span>
+  - <a href="https://www.roadsidedentalmarketing.com/services/websites/dental/" class="menu-image-title-after"></a>
 
-        <span class="menu-image-title">Medical Websites</span>
-    -   <a href="https://www.roadsidedentalmarketing.com/portfolio/case-studies/" class="menu-image-title-after"></a>
+    <span class="menu-image-title">Dental Websites</span>
 
-        <span class="menu-image-title">Case Studies</span>
-    -   <a href="https://www.roadsidedentalmarketing.com/website-pricing/" class="menu-image-title-after"></a>
+  - <span id="menu-item-52489"><a href="https://www.roadsidedentalmarketing.com/services/websites/medical/" class="menu-image-title-after"></a></span>
 
-        <span class="menu-image-title">Website Pricing Options</span>
--   <a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Portfolio</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Marketing</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/services/marketing/weekly-coach/" class="menu-image-title-after"><span class="menu-image-title">Weekly Coach</span></a>
+    <span class="menu-image-title">Medical Websites</span>
+
+  - <a href="https://www.roadsidedentalmarketing.com/portfolio/case-studies/" class="menu-image-title-after"></a>
+
+    <span class="menu-image-title">Case Studies</span>
+
+  - <a href="https://www.roadsidedentalmarketing.com/website-pricing/" class="menu-image-title-after"></a>
+
+    <span class="menu-image-title">Website Pricing Options</span>
+
+- <a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Portfolio</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Marketing</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/services/marketing/weekly-coach/" class="menu-image-title-after"><span class="menu-image-title">Weekly Coach</span></a>
 
 COVID-19 Resources
 
@@ -48,15 +53,14 @@ We’ve put together tips, ideas, and resources to help your business create pos
 
 Check back regularly, as we’re updating our resources frequently.
 
--   [Roadside COVID-19 Resources](https://www.roadsidedentalmarketing.com/blog/covid-resources-for-dental/)
--   [Helping Your Dental Practice Thrive Before + After Reopening \[VIDEO\]](https://www.roadsidedentalmarketing.com/blog/thrive-after-reopening/)
--   [Adapt Your Website Content to Meet Patients’ Changing Needs](https://www.roadsidedentalmarketing.com/blog/adapt-website-content/)
--   [Teledentistry / Virtual Consultations](https://www.roadsidedentalmarketing.com/promo/teledentistry/)
+- [Roadside COVID-19 Resources](https://www.roadsidedentalmarketing.com/blog/covid-resources-for-dental/)
+- [Helping Your Dental Practice Thrive Before + After Reopening \[VIDEO\]](https://www.roadsidedentalmarketing.com/blog/thrive-after-reopening/)
+- [Adapt Your Website Content to Meet Patients’ Changing Needs](https://www.roadsidedentalmarketing.com/blog/adapt-website-content/)
+- [Teledentistry / Virtual Consultations](https://www.roadsidedentalmarketing.com/promo/teledentistry/)
 
 <a href="https://www.roadsidedentalmarketing.com/roadside-recommends/" class="cat-link">Roadside Recommends</a> <span class="cat-time-divider">|</span>7 min read
 
-AI Is Automating Tomorrow’s Dental Practices
-============================================
+# AI Is Automating Tomorrow’s Dental Practices
 
 [<img src="data:image/svg+xml;nitro-empty-id=NDIzOjI4Nw==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" id="NDIzOjI4Nw==-1" class="avatar pp-user-avatar avatar-96 photo nitro-lazy" width="96" height="96" />](https://www.roadsidedentalmarketing.com/blog/author/sovena-ngeth/) by [Sovena Ngeth](https://www.roadsidedentalmarketing.com/blog/author/sovena-ngeth/)
 
@@ -70,9 +74,9 @@ Every day, you’re focused on caring for your patients.
 
 This may include:
 
--   Discussing their needs
--   Answering questions
--   Providing top-notch dental treatments
+- Discussing their needs
+- Answering questions
+- Providing top-notch dental treatments
 
 And we know fostering a relationship with your patients is crucial for creating a positive environment and boosting your practice’s success.
 
@@ -88,7 +92,7 @@ Wearing too many hats at once gets overwhelming and exhausting for everyone invo
 
 Plus:
 
-*You may not be able to give your 100% to everything, either.*
+_You may not be able to give your 100% to everything, either._
 
 But don’t worry:
 
@@ -98,13 +102,12 @@ With our world going digital, it’s crucial that you have virtual solutions in 
 
 In this blog, you’ll learn about:
 
--   AI in dentistry
--   What chatbots are
--   Different types of chatbots
--   How they’ll help your practice
+- AI in dentistry
+- What chatbots are
+- Different types of chatbots
+- How they’ll help your practice
 
-What is artificial intelligence in dentistry?
----------------------------------------------
+## What is artificial intelligence in dentistry?
 
 According to the National Center for Biotechnology Information, artificial intelligence in dentistry encompasses a broad spectrum of advanced technologies.
 
@@ -116,12 +119,11 @@ The American Dental Association believes that using AI may help patients trust y
 
 The most common types of AI used in the dental health field include:
 
--   Chatbots
--   Appointment confirmation software
--   Review management software
+- Chatbots
+- Appointment confirmation software
+- Review management software
 
-What is a chatbot?
-------------------
+## What is a chatbot?
 
 <img src="data:image/svg+xml;nitro-empty-id=NDY1OjcyNg==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNzYwIDQwMCIgd2lkdGg9Ijc2MCIgaGVpZ2h0PSI0MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" title="Learn three types of chatbots for your dental practice in our blog. Read now! " alt="Text: Chatbots are programmed to ask questions about your patient&#39;s symptoms, help patients receive emergency dental care, transfer data to your patient&#39;s record. " id="NDY1OjcyNg==-1" class="alignnone wp-image-53124 size-full nitro-lazy" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 760px, 100vw" width="760" height="400" />
 
@@ -145,9 +147,9 @@ With advancements in artificial intelligence, the market for healthcare chatbots
 
 Some of the most popular chatbots include:
 
--   ChatCompose
--   Smartbot360
--   The Emergency Dental Virtual Assistant
+- ChatCompose
+- Smartbot360
+- The Emergency Dental Virtual Assistant
 
 ### Chatcompose
 
@@ -167,8 +169,8 @@ Similarly, [Smartbot360<span class="sr-only">… This text opens a new tab to th
 
 Their chatbots can be set up in minutes, thanks to:
 
--   Ready-to-use templates
--   Experts who can help you create a custom chatbot
+- Ready-to-use templates
+- Experts who can help you create a custom chatbot
 
 ### The Emergency Dental Virtual Assistant
 
@@ -182,8 +184,7 @@ In addition:
 
 **The information exchanged in the chatbot and texting applications can simply be transferred into your patients’ records.**
 
-What is appointment confirmation software?
-------------------------------------------
+## What is appointment confirmation software?
 
 This type of software is on the rise in dental practices all over.
 
@@ -197,13 +198,12 @@ And it can even send a personalized note to new patients, such as “Thank you�
 
 Additionally, it may be used to:
 
--   Ping your patients with reminders about their upcoming visits
--   Provide immediate confirmation about their appointments
--   Aid your patient in rescheduling or canceling an appointment
--   Send out a no-show notice
+- Ping your patients with reminders about their upcoming visits
+- Provide immediate confirmation about their appointments
+- Aid your patient in rescheduling or canceling an appointment
+- Send out a no-show notice
 
-What is review management software?
------------------------------------
+## What is review management software?
 
 **Review management software encourages patients to leave feedback about their experience at your dental practice.**
 
@@ -215,29 +215,28 @@ And:
 
 Encouraging your patients to provide feedback can allow your practice to know how to keep up the good work or improve.
 
-What are the benefits of artificial intelligence in dentistry?
---------------------------------------------------------------
+## What are the benefits of artificial intelligence in dentistry?
 
 AI makes everyone’s lives easier!
 
 Artificial intelligence:
 
--   Offers **support around the clock** (even when no one is in the office!)
--   Sends patients **reminders about their appointments** or notify them about the state of the visit
--   Explains **treatment costs** and share details about financing options
--   Provides **real-time information** instantly
--   Informs patients of your **availability**
--   Allows patients to **cancel or reschedule** appointments easily
--   Requests honest, anonymous **feedback from your patients** about their treatment to help improve your practice
--   Reduces the **impact of a crisis**
+- Offers **support around the clock** (even when no one is in the office!)
+- Sends patients **reminders about their appointments** or notify them about the state of the visit
+- Explains **treatment costs** and share details about financing options
+- Provides **real-time information** instantly
+- Informs patients of your **availability**
+- Allows patients to **cancel or reschedule** appointments easily
+- Requests honest, anonymous **feedback from your patients** about their treatment to help improve your practice
+- Reduces the **impact of a crisis**
 
 **In addition to making your patients’ lives easier and simultaneously increasing the quality of care, advanced technology in dentistry benefits dentists like you.**
 
 For example, you’ll enjoy:
 
--   Improved accuracy
--   Restorative dental aid
--   Orthodontic tracking
+- Improved accuracy
+- Restorative dental aid
+- Orthodontic tracking
 
 ### Improved accuracy
 
@@ -261,9 +260,9 @@ Think about it.
 
 Just to name a few, we have:
 
--   CEREC same-day crowns
--   Shade matching dentures
--   Automated quality control
+- CEREC same-day crowns
+- Shade matching dentures
+- Automated quality control
 
 Modern technology allows for modern methods in dentistry.
 
@@ -287,8 +286,7 @@ Yes, AI is just technology.
 
 But with **purpose and functionality**, it connects you to your patients in an accessible and user-friendly platform.
 
-Need help taking some tasks off your plate?
--------------------------------------------
+## Need help taking some tasks off your plate?
 
 We know this may be a lot of new information to take in at once.
 
@@ -314,8 +312,8 @@ We look forward to hearing from your dent-AI practice.
 
 Related Posts:
 
--   <a href="https://www.roadsidedentalmarketing.com/blog/should-your-dental-practice-hire-a-dental-consultant-video/" class="linkpost" title="Should Your Dental Practice Hire a Dental Consultant? [VIDEO]"><img src="data:image/svg+xml;nitro-empty-id=NTkwOjUxMg==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzAwIDE1OCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIxNTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" alt="Roadside Live with Christi Bintliff a Practice Management Coach from Leap 2 Solutions" id="NTkwOjUxMg==-1" class="attachment-medium size-medium wp-post-image nitro-lazy" width="300" height="158" /> <span>Should Your Dental Practice Hire a Dental Consultant? [VIDEO]</span></a>
--   <a href="https://www.roadsidedentalmarketing.com/blog/best-for-dentistry-benefits/" class="linkpost" title="Independent Dentists: You Deserve a Bigger Piece of the Pie [Guest Post]"><img src="data:image/svg+xml;nitro-empty-id=NTkyOjQ3Mg==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzAwIDE1OCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIxNTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" alt="Dental team working on budgets and finances using laptop and digital tools" id="NTkyOjQ3Mg==-1" class="attachment-medium size-medium wp-post-image nitro-lazy" width="300" height="158" /> <span>Independent Dentists: You Deserve a Bigger Piece of the Pie [Guest Post]</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/blog/should-your-dental-practice-hire-a-dental-consultant-video/" class="linkpost" title="Should Your Dental Practice Hire a Dental Consultant? [VIDEO]"><img src="data:image/svg+xml;nitro-empty-id=NTkwOjUxMg==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzAwIDE1OCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIxNTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" alt="Roadside Live with Christi Bintliff a Practice Management Coach from Leap 2 Solutions" id="NTkwOjUxMg==-1" class="attachment-medium size-medium wp-post-image nitro-lazy" width="300" height="158" /> <span>Should Your Dental Practice Hire a Dental Consultant? [VIDEO]</span></a>
+- <a href="https://www.roadsidedentalmarketing.com/blog/best-for-dentistry-benefits/" class="linkpost" title="Independent Dentists: You Deserve a Bigger Piece of the Pie [Guest Post]"><img src="data:image/svg+xml;nitro-empty-id=NTkyOjQ3Mg==-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzAwIDE1OCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIxNTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" alt="Dental team working on budgets and finances using laptop and digital tools" id="NTkyOjQ3Mg==-1" class="attachment-medium size-medium wp-post-image nitro-lazy" width="300" height="158" /> <span>Independent Dentists: You Deserve a Bigger Piece of the Pie [Guest Post]</span></a>
 
 <span id="reply-title" class="comment-reply-title">Leave a comment: <span class="small"><a href="/blog/ai-in-dentistry/#respond" id="cancel-comment-reply-link">Cancel reply</a></span></span>
 
@@ -349,29 +347,29 @@ Friday: 9:00am - 5:00pm
 
 Links
 
--   <span id="menu-item-43387"><a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Website Design Portfolio</span></a></span>
--   <span id="menu-item-43386"><a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Services</span></a></span>
--   <span id="menu-item-43383"><a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a></span>
--   <span id="menu-item-17735"><a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a></span>
--   <span id="menu-item-17731"><a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a></span>
+- <span id="menu-item-43387"><a href="https://www.roadsidedentalmarketing.com/portfolio/" class="menu-image-title-after"><span class="menu-image-title">Website Design Portfolio</span></a></span>
+- <span id="menu-item-43386"><a href="https://www.roadsidedentalmarketing.com/services/marketing/" class="menu-image-title-after"><span class="menu-image-title">Services</span></a></span>
+- <span id="menu-item-43383"><a href="https://www.roadsidedentalmarketing.com/meet-the-team/" class="menu-image-title-after"><span class="menu-image-title">Meet Us</span></a></span>
+- <span id="menu-item-17735"><a href="https://www.roadsidedentalmarketing.com/blog/" class="menu-image-title-after"><span class="menu-image-title">Blog</span></a></span>
+- <span id="menu-item-17731"><a href="https://www.roadsidedentalmarketing.com/contact/" class="menu-image-title-after"><span class="menu-image-title">Contact</span></a></span>
 
 ### REQUEST A WEBSITE QUOTE
 
 <span class="gform_description"></span>
 
--   <span id="field_18_1">Name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
+- <span id="field_18_1">Name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
 
--   <span id="field_18_10">Phone</span>
+- <span id="field_18_10">Phone</span>
 
--   <span id="field_18_2">Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
+- <span id="field_18_2">Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">\*</span></span></span>
 
--   <span id="field_18_8">Website</span>
+- <span id="field_18_8">Website</span>
 
--   <span id="field_18_6">Tell us your website goals:</span>
+- <span id="field_18_6">Tell us your website goals:</span>
 
--   <span id="field_18_11">Phone</span>
+- <span id="field_18_11">Phone</span>
 
-    This field is for validation purposes and should be left unchanged.
+  This field is for validation purposes and should be left unchanged.
 
 Request a Free Quote
 
